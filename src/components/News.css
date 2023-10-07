@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+		height: 150px;
+        background-color: teal;
+		text-align: center;
+        padding-top: 50px;
+        font-size: 25px;
+        font-family: cursive;
+        color: white;		
+        
+}
+.inputbar{
+    position: relative;
+    right: 595px;
+    bottom: 15px;
+    border-style: double;
+
+}
+.submitbtn{
+    position: relative;
+    right: 595px;
+    bottom: 15px;
+
+}
