@@ -1,15 +1,15 @@
-import { set } from 'mongoose'
+// import { set } from 'mongoose'
 import React, { useEffect, useRef, useState } from 'react'
 import SingleNews from './SingleNews'
 import './News.css'
 
 function News() {
-    const APIkey='416a567710f149d2bd717788fe097c7e'
+    // const APIkey='ad9bb953577ab6d314917475f7161baf'
     
     const [newsList,setNewsList]=useState([])
     const [query,setquery]=useState('india')
     const queryInputRef=useRef(null);
-    const url="https://newsapi.org/v2/everything?q="+query+"&from=2023-09-10&sortBy=publishedAt&apiKey=416a567710f149d2bd717788fe097c7e"
+    const url="https://gnews.io/api/v4/search?q="+query+"&apikey=ad9bb953577ab6d314917475f7161baf"
 
     useEffect(()=>
     {
