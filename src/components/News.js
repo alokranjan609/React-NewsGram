@@ -2,14 +2,14 @@
 import React, { useEffect, useRef, useState } from 'react'
 import SingleNews from './SingleNews'
 import './News.css'
+// require('dotenv').config();
+
 
 function News() {
-    // const APIkey='ad9bb953577ab6d314917475f7161baf'
-    
     const [newsList,setNewsList]=useState([])
     const [query,setquery]=useState('india')
     const queryInputRef=useRef(null);
-    const url="https://gnews.io/api/v4/search?q="+query+"&apikey=ad9bb953577ab6d314917475f7161baf"
+    const url="https://gnews.io/api/v4/search?q="+query+"&apikey=ad9bb953577ab6d314917475f7161baf";
 
     useEffect(()=>
     {
