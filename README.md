@@ -4,7 +4,7 @@ This is a React application that fetches and displays news from an API.
 ### Features
 - Fetches news articles from an external API
 - Displays news articles in a clean and responsive layout
-- Provides a search functionality to find specific news articles (if implemented)
+- Provides a search functionality to find specific news articles
 
 ### Technologies Used
 - React
